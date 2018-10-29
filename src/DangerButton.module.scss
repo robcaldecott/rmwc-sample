@@ -1,0 +1,5 @@
+@import "@material/button/mixins";
+
+.danger {
+  @include mdc-button-filled-accessible(red);
+}
